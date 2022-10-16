@@ -674,7 +674,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT 𝑊𝑎𝑙𝑧𝐼𝑠𝐻𝑒𝑟𝑒",
+"name": "HALO 👋 SAYA BOT WANMODS",
 "options": [
 	{
 "optionName": "KATANYA WA KEBAL"
@@ -689,7 +689,7 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 	},
 	{
-"optionName": "SALAM BROTHER BY 𝑊𝑎𝑙𝑧𝐼𝑠𝐻𝑒𝑟𝑒"
+"optionName": "SALAM BROTHER BY WANMODS"
 	}
 ],
 "selectableOptionsCount": 5
